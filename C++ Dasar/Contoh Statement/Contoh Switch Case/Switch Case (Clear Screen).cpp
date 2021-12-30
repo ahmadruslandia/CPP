@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
@@ -6,6 +7,7 @@ int main() {
 	
 int pilihan;
     
+    system("cls");
     cout << " " << endl;
     cout << "Menu :" << endl;
     cout << " " << endl;
@@ -18,27 +20,27 @@ int pilihan;
     cin >> pilihan;
     switch (pilihan)
     {
-        case 1: {
+        case 1: system("cls"); {
 			cout << "Contoh Ke-1 Berhasil Dicoba" << endl;
        	    break;
     	}
-		case 2: {
+		case 2: system("cls"); {
             cout << "Contoh Ke-2 Berhasil Dicoba" << endl;
             break;
        	}
-      	case 3: {
+      	case 3: system("cls"); {
         	cout << "Contoh Ke-3 Berhasil Dicoba" << endl;
             break;
         }
-        case 4: {
+        case 4: system("cls"); {
         	cout << "Contoh Ke-4 Berhasil Dicoba" << endl;
         	break;
         }
-    	default: {
+    	default: system("cls"); {
             cout << "Masukkan Pilihan Dengan Benar" << endl;
             break;
         }
-    }
+    }_getch();
  
  	return 0;
  
