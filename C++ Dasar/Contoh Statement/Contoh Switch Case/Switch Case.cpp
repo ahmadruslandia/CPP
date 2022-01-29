@@ -6,14 +6,11 @@ int main() {
 	
 int pilihan;
     
-    cout << " " << endl;
-    cout << "Menu :" << endl;
-    cout << " " << endl;
+    cout << "Menu :\n" << endl;
     cout << "1. Contoh Ke Satu           " << endl;
     cout << "2. Contoh Ke Dua            " << endl;
     cout << "3. Contoh Ke Tiga           " << endl;
-    cout << "4. Contoh Ke Empat	         " << endl;
-    cout << " " << endl;
+    cout << "4. Contoh Ke Empat	         \n" << endl;
     cout << "Masukan Pilihan : "; 
     cin >> pilihan;
     switch (pilihan)

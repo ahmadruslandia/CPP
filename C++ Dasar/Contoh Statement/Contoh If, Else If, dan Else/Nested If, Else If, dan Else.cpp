@@ -6,8 +6,7 @@ using namespace std;
 int main()
 {
 	string data1, data2;
-	cout << "Login " << endl;
-	cout << " " << endl;
+	cout << "Login \n" << endl;
 	cout << "username : " ;
 	cin >> data1;
 	cout << "password : " ;
@@ -15,17 +14,14 @@ int main()
 
 	if (data1 == "arblog") {
 		if (data2 == "belajar"){
-			cout << " " << endl;
-			cout << "anda berhasil mencoba" << endl;
+			cout << "\nanda berhasil mencoba" << endl;
 		}
 		else {
-			cout << " " << endl;
-			cout << "password salah" << endl; 
+			cout << "\npassword salah" << endl; 
 		}
 	}
 	else {
-		cout << " " << endl;
-		cout << "username anda salah" << endl;
+		cout << "\nusername anda salah" << endl;
 	}
 
 	return 0;
