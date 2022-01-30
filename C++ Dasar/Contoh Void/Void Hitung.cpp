@@ -2,22 +2,22 @@
 using namespace std;
 
 void tambah(int a, int b){
-	cout << "------ +" << endl;
-	cout << " " << a + b << endl;
+	cout << "--------- +" << endl;
+	cout << "Hasil : " << a + b << endl;
 }
 
 void kurang(int a, int b){
-	cout << "------ -" << endl;
+	cout << "--------- -" << endl;
 	cout << " " << a - b << endl;
 }
 
 void perkalian(int a, int b){
-	cout << "------ *" << endl;
+	cout << "--------- *" << endl;
 	cout << " " <<a * b << endl;
 }
 
 void pembagian(int a, int b){
-	cout << "------ :" << endl;
+	cout << "--------- :" << endl;
 	cout << " " << a / b << endl;
 }
 
@@ -35,34 +35,34 @@ int main(){
 	
 	
 	if (pilihan == 1){
-		cout << "\nMasukkan Angka \n" << endl;
-		cout << " " ;
+		cout << "\nSilahkan Masukkan Angka \n" << endl;
+		cout << "Angka : " ;
 		cin >> a;
-		cout << " " ;
+		cout << "Angka : " ;
 		cin >> b;
 		tambah(a, b);
 	}
 	else if (pilihan == 2){
-		cout << "\nMasukkan Angka \n" << endl;
-		cout << " " ;
+		cout << "\nSilahkan Masukkan Angka \n" << endl;
+		cout << "Angka : " ;
 		cin >> a;
-		cout << " " ;
+		cout << "Angka : " ;
 		cin >> b;
 		kurang(a, b);
 	}
 	else if (pilihan == 3){
-		cout << "\nMasukkan Angka \n" << endl;
-		cout << " " ;
+		cout << "\nSilahkan Masukkan Angka \n" << endl;
+		cout << "Angka : " ;
 		cin >> a;
-		cout << " " ;
+		cout << "Angka : " ;
 		cin >> b;
 		perkalian(a, b);
 	}
 	else if (pilihan == 4){
-		cout << "\nMasukkan Angka \n" << endl;
-		cout << " " ;
+		cout << "\nSilahkan Masukkan Angka \n" << endl;
+		cout << "Angka : " ;
 		cin >> a;
-		cout << " " ;
+		cout << "Angka : " ;
 		cin >> b;
 		pembagian(a, b);
 	}
